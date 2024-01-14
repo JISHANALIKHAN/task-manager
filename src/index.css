@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Active {
+    border-right: 5px solid rgb(34 211 238);
+    color: rgb(34 211 238);
+}
+
+.Completed {
+    border-right: 5px solid rgb(34 197 94);
+    color: rgb(34 197 94);
+}
+
+li:hover button {
+    opacity: 1;
+}
+
+
